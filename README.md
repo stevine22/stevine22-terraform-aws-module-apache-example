@@ -1,7 +1,7 @@
-Terraform module to provision an EC2 instance that is running apache. Not intended for ptodeuction use 
+Terraform module to provision an EC2 instance that is running apache. Not intended for ptodeuction use .
 
 
-Just showcasing how to ceate a custom module on registry
+Just showcasing how to ceate a custom module on registry .
 
 
 ```hcl
