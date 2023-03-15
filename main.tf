@@ -35,8 +35,9 @@ resource "aws_key_pair" "deployer" {
   key_name   = "deployer-key"
   public_key = var.public_key
 }
-data "template_file" "user_data"{
-   template = file("./userdata.yaml")
+
+   data "template_file" "user_data"{
+   template = file("./../../modules/terraform-aws-module-apache-example/userdata.yaml")
 }
 
 /*
